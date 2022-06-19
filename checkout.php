@@ -1,4 +1,9 @@
 <?php include_once 'header.php'; ?>
+<?php 
+
+require_once 'translationKey.php';
+
+?>
 	<!--Page Title-->
     <section class="page-title" style="background-image: url(images/background/4.jpeg);">
     	<div class="auto-container">
