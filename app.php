@@ -54,8 +54,8 @@ include_once 'header.php'; ?>
                         <input type="hidden" name="Sleeves_color">
                         
                         <button onclick="sendmsg('checkout.php')" type="button" class="theme-btn btn-style-one"> إكمال الطلب </button>
-                        <a href="barcode.php" type="button" class="theme-btn btn-style-one" target="_blank"> محاكاة الزي</a>
-                    </form>
+                        <button onclick="sendmsg('barcode.php')" type="button" class="theme-btn btn-style-one" target="_blank"> محاكاة الزي</button>
+                      </form>
 
                 </div>
 

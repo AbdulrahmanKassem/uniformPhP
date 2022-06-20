@@ -22,6 +22,7 @@
             
            	<!--Cart Outer-->
             <div class="cart-outer">
+                
                 <div class="table-outer" style="background-color:unset !important;">
                     <table class="table table-bordered table-striped table-hover">
                        
@@ -37,7 +38,9 @@
                         </tbody>
                     </table>
                 </div>
-                
+                <div class="end-order clearfix">
+                    <a href="index.php" type="button" class="theme-btn btn-style-one"> إنهاء  </a>
+                </div>
                 
             </div>
             
