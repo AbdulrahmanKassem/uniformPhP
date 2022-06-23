@@ -1,0 +1,138 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl FABRIC_1_FRONT_75919
+Ka 0.257132 0.257132 0.257132
+Kd 0.819608 0.819608 0.819608
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+map_Ka E:/Arabic Project/Character/character_02/character_diffuse_1001.png
+map_Kd E:/Arabic Project/Character/character_02/character_diffuse_1001.png
+map_Kn E:/Arabic Project/Character/character_02/character_normal_1001.png
+newmtl M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencollada_Female_Sneaker_02_opencollada_man_sports_shoes_shoesFBXASC045fx2SG1SG1SG1SG1S1
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.064778 0.064778 0.064778
+Ns 19.999998
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/Male_Sneaker_01.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/Male_Sneaker_01.jpg
+newmtl M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencollada_Female_Sneaker_02_opencollada_dummy1FBXASC045fx2SG1SG1SG1SG1SG1SG1SG1
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/transparency.png
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/transparency.png
+map_d C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/transparency.png
+newmtl M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencollada_Female_Sneaker_02_opencollada_man_sports_shoes_shoesFBXASC045fx2SG1SG1SG1SG1S1
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.064778 0.064778 0.064778
+Ns 19.999998
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/Male_Sneaker_01.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/Male_Sneaker_01.jpg
+newmtl M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencollada_Female_Sneaker_02_opencollada_dummy1FBXASC045fx2SG1SG1SG1SG1SG1SG1SG1
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/transparency.png
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/transparency.png
+map_d C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/transparency.png
+newmtl defaultMat1
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/hair.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/hair.jpg
+newmtl face
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.165000 0.165000 0.165000
+Ns 37.550732
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/face.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/face.jpg
+newmtl body2
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.165000 0.165000 0.165000
+Ns 37.550732
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/body_Covered.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/body_Covered.jpg
+newmtl arm
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.165000 0.165000 0.165000
+Ns 37.550732
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/arm.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/arm.jpg
+newmtl leg
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.165000 0.165000 0.165000
+Ns 37.550732
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/leg.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/leg.jpg
+newmtl eye
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.560000 0.560000 0.560000
+Ns 128.000000
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/eye.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/eye.jpg
+newmtl eye
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.560000 0.560000 0.560000
+Ns 128.000000
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/eye.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/eye.jpg
+newmtl eyelash
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/eyelash.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/eyelash.jpg
+newmtl eyelash
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/eyelash.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/eyelash.jpg
+newmtl toothSG1
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/tooth.jpg
+map_Kd C:/Users/Thinkpad/AppData/Local/CLO/Marvelous Designer Personal/5484/1168/tooth.jpg

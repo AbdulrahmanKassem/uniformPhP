@@ -1,0 +1,573 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.2f1 (5e2b1e92c7f8) revision 6171422'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16381 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/F/Pro/Unity/projects/outfit3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57143
+Successfully changed project path to: E:/F/Pro/Unity/projects/outfit3
+E:/F/Pro/Unity/projects/outfit3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 149.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/F/Pro/Unity/projects/outfit3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   NVIDIA
+    VRAM:     1998 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018742 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 134.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006719 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\F\Pro\Unity\projects\outfit3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\F\Pro\Unity\projects\outfit3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2076ms)
+		BeginReloadAssembly (372ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1522ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3238 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (57.7 KB). Loaded Objects now: 3708.
+Memory consumption went from 116.8 MB to 116.7 MB.
+Total: 9.350200 ms (FindLiveObjects: 1.028300 ms CreateObjectMapping: 0.237300 ms MarkObjects: 7.567200 ms  DeleteObjects: 0.513500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 850.478068 seconds.
+  path: Assets/character/Textures/Full_02/FullDress_02_AlbedoTransparency.jpg
+  artifactKey: Guid(9855ebce621515a468ad200be9bfc8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Textures/Full_02/FullDress_02_AlbedoTransparency.jpg using Guid(9855ebce621515a468ad200be9bfc8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ca573c96b4c13507afb97ec5432add') in 0.246956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.014187 seconds.
+  path: Assets/character/Materials/Buttons.mat
+  artifactKey: Guid(33e4b7cd0ccb5b446a8a7af963a7fd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Buttons.mat using Guid(33e4b7cd0ccb5b446a8a7af963a7fd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedbb3243727465613f287d1b49f0c08') in 0.147804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-character_toothSG1.mat
+  artifactKey: Guid(7a58790da49c71e44a79dabc3732685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-character_toothSG1.mat using Guid(7a58790da49c71e44a79dabc3732685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce471b427cfa2c02dfeba8849f2ccce') in 0.018424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/character/Materials/character_eye.001.mat
+  artifactKey: Guid(db371cebb54a697498532c22b410f79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_eye.001.mat using Guid(db371cebb54a697498532c22b410f79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9e34e400a78ebbabe34a739575040d') in 0.014303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-Buttons.mat
+  artifactKey: Guid(f377e66ff4e7e684bb5526b54b768066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-Buttons.mat using Guid(f377e66ff4e7e684bb5526b54b768066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be31d15a4e33d69041316e72e76ac198') in 0.029340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-FullCloth_02.mat
+  artifactKey: Guid(9ecf70db2ca33ac4281aebe1234d3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-FullCloth_02.mat using Guid(9ecf70db2ca33ac4281aebe1234d3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405a01fa922b9c8e2c56ba0f4380bc1c') in 0.023260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/character/Materials/character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencol_fd5.mat
+  artifactKey: Guid(7dc022718f597aa459eadf8402ee91c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencol_fd5.mat using Guid(7dc022718f597aa459eadf8402ee91c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f494c9ef85f8f4f5caa70eea73142f1a') in 0.021778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-character_face.mat
+  artifactKey: Guid(690b719e2f4dec64ab92959c03e4c310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-character_face.mat using Guid(690b719e2f4dec64ab92959c03e4c310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cd036350d50591da02627d9d382ea6') in 0.015053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencol_fd59902.mat
+  artifactKey: Guid(fc1dce7f55b89f24d9a038197b8a5e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencol_fd59902.mat using Guid(fc1dce7f55b89f24d9a038197b8a5e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca031f54f1928c431f0fb0174b55b840') in 0.018831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-FullCloth_01.mat
+  artifactKey: Guid(27f1dbd2f984a234687551b5e358beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-FullCloth_01.mat using Guid(27f1dbd2f984a234687551b5e358beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fde390893049cad1711283da362e43') in 0.012820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/character/Materials/character_defaultMat1.mat
+  artifactKey: Guid(2b0fb2de21b2495469ed7d9e37edafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_defaultMat1.mat using Guid(2b0fb2de21b2495469ed7d9e37edafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66404f44b971dbac338cf0fb6bbf9f9') in 0.013566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-character_leg.mat
+  artifactKey: Guid(65cad4afcbe84bf468a8127443845e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-character_leg.mat using Guid(65cad4afcbe84bf468a8127443845e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584f763c9b8d6376d34f6a2deb8702bc') in 0.017305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/character/Materials/character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencol_fd59902.mat
+  artifactKey: Guid(7df87edc632e1ab499b51411b2959db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencol_fd59902.mat using Guid(7df87edc632e1ab499b51411b2959db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefd14724d1630f0e9113a650913e480') in 0.019601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-character_body2.mat
+  artifactKey: Guid(887a27e0ef7bccb4da6bd7af33fc1848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-character_body2.mat using Guid(887a27e0ef7bccb4da6bd7af33fc1848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e13b987b75eea0f3742b1a29132fdb') in 0.017694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-character_arm.mat
+  artifactKey: Guid(0ce4e12d21d4f1d4c94fb43c90c741be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-character_arm.mat using Guid(0ce4e12d21d4f1d4c94fb43c90c741be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac1eeda8e99b7f3f73726a3ea9b9bf2') in 0.020928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/character/Materials/Collar_03.001.mat
+  artifactKey: Guid(2cdbd50780426a94bbd0deaa5e88cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Collar_03.001.mat using Guid(2cdbd50780426a94bbd0deaa5e88cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9e91e53e58851be4438b39e3728bc3') in 0.020493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/character/Materials/character_body2.001.mat
+  artifactKey: Guid(fe23ac2831296714c8e7be9057e5e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_body2.001.mat using Guid(fe23ac2831296714c8e7be9057e5e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a26190bd5b8fa438c1cc67ffe76f48') in 0.035529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/character/Materials/character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencollada_Female_Sneaker_02_opencollada_man_sports_shoes_shoesFBXASC045fx2SG1SG1SG1SG1S1.mat
+  artifactKey: Guid(4e984bf8596f49943b7cf668c1ae27bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencollada_Female_Sneaker_02_opencollada_man_sports_shoes_shoesFBXASC045fx2SG1SG1SG1SG1S1.mat using Guid(4e984bf8596f49943b7cf668c1ae27bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c64f7a57554eca129a28299358467f1') in 0.023464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/character/Materials/character_arm.mat
+  artifactKey: Guid(9577a33f513492747b15c8b494939f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_arm.mat using Guid(9577a33f513492747b15c8b494939f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd96b7e5f15d3ae2dd50df4625783cca') in 0.022510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/character/Materials/character_body2.mat
+  artifactKey: Guid(aaef457f8755441449630be15df4a9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_body2.mat using Guid(aaef457f8755441449630be15df4a9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747e63d0b11198cabcd06d6dd3810f31') in 0.035311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-Pant_Pocket.mat
+  artifactKey: Guid(6efedaaaef6470b46a47b55a762f6718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-Pant_Pocket.mat using Guid(6efedaaaef6470b46a47b55a762f6718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49230e9078bf431013c4d32f8f4cb62c') in 0.019918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-Pant_04.mat
+  artifactKey: Guid(95dc55e1885c56942a201a02482a9704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-Pant_04.mat using Guid(95dc55e1885c56942a201a02482a9704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb82236b36b8a2535d0b97f95546440') in 0.013683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/character/Materials/Collar_03.mat
+  artifactKey: Guid(30237f11822dd914f92c056594673f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Collar_03.mat using Guid(30237f11822dd914f92c056594673f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee6f4b4c9b08b2f316bb012eefea483') in 0.014064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/character/Materials/FullCloth_Buttons.001.mat
+  artifactKey: Guid(cca68c4a8c33ddc45949822f040aebe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/FullCloth_Buttons.001.mat using Guid(cca68c4a8c33ddc45949822f040aebe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22af24e57b5ccb25ba610ac0b98b0309') in 0.021982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-Pant_01.mat
+  artifactKey: Guid(55991facbd507a74da343df2c9da94c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-Pant_01.mat using Guid(55991facbd507a74da343df2c9da94c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53668d10c7d575e9712be0b148e47835') in 0.019107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-Collar_03.mat
+  artifactKey: Guid(0752e149619217e40a27a741fdd27e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-Collar_03.mat using Guid(0752e149619217e40a27a741fdd27e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94411deb563fa9f3c26ab20d876f3ce') in 0.021431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/character/Materials/FullCloth_Buttons.mat
+  artifactKey: Guid(d133bf73190ca574f80a13dc886df2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/FullCloth_Buttons.mat using Guid(d133bf73190ca574f80a13dc886df2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2ddddd7eba640a7a47d621331876e5') in 0.018825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/character/Materials/CollarBase.mat
+  artifactKey: Guid(eb2cb4a7b62287e45a1f2ae42040f9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/CollarBase.mat using Guid(eb2cb4a7b62287e45a1f2ae42040f9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0326271a04c559b7d1ba338f2307c3b4') in 0.015916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/character/Materials/FullCloth_01.001.mat
+  artifactKey: Guid(74038182a15fc2642b60d7c914cb09ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/FullCloth_01.001.mat using Guid(74038182a15fc2642b60d7c914cb09ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36c0d3c70d0d17592d3679ba321a578') in 0.045594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/character/Materials/Collar_button.001.mat
+  artifactKey: Guid(f6f2e91421a6cb240a63b158fdab9630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Collar_button.001.mat using Guid(f6f2e91421a6cb240a63b158fdab9630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee0495f2227b06731642c5e01c54b12') in 0.014272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-CollarBase.mat
+  artifactKey: Guid(c9883700e8f592b4e8041b025fcb52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-CollarBase.mat using Guid(c9883700e8f592b4e8041b025fcb52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aa2c7159ff14bfe6093faf05722cdd') in 0.012287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/character/Materials/character_leg.mat
+  artifactKey: Guid(2b76123744fde444792e71c7c377b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/character_leg.mat using Guid(2b76123744fde444792e71c7c377b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c3407a367b64ca39766b07aa494aeb') in 0.012698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencol_a579494.mat
+  artifactKey: Guid(d5c85ff3720cb9c41bf40767298d4a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-character_M_Thomas_Sneaker_A_03_Male_Sneaker_02_opencol_a579494.mat using Guid(d5c85ff3720cb9c41bf40767298d4a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1688cf2685415f7aad4885c69eb516a2') in 0.023509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-FullCloth_Buttons.mat
+  artifactKey: Guid(540628e387e572743ba71d5c837a379a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-FullCloth_Buttons.mat using Guid(540628e387e572743ba71d5c837a379a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63455c5edac84690014de16239851718') in 0.015184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.734771 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-Shirt_02.mat
+  artifactKey: Guid(a3b1be84b71bb8f4dab6ef60c2ffecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-Shirt_02.mat using Guid(a3b1be84b71bb8f4dab6ef60c2ffecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8c42779506e54bbe92b675bb888548') in 0.053157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/character/Materials/Shirt_Pocket_01.001.mat
+  artifactKey: Guid(90426980c00a6e74bb033f0b402e7029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Shirt_Pocket_01.001.mat using Guid(90426980c00a6e74bb033f0b402e7029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893780fca4f1f651bf524fcd8ea935e0') in 0.019330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/character/Materials/Sleaves_01.mat
+  artifactKey: Guid(eb376fdc7ed354349a6354e104c8ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Sleaves_01.mat using Guid(eb376fdc7ed354349a6354e104c8ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20e2dd849e4cdab3c9edcb8dbcde381') in 0.013898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-Shirt_04.mat
+  artifactKey: Guid(c783b39d1d1304342a5c189822e7d0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-Shirt_04.mat using Guid(c783b39d1d1304342a5c189822e7d0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8186c73f5320177c41a1f9ce054c1d7') in 0.019734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/character/Materials/Pant_01.001.mat
+  artifactKey: Guid(33c38f2ffd583fb4484d0d5b0df2e057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_01.001.mat using Guid(33c38f2ffd583fb4484d0d5b0df2e057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14723f766b5f97f89e53fcbaff85a9a1') in 0.024540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/character/Materials/Sleaves_01.001.mat
+  artifactKey: Guid(f1dee8d366c2fc84ba3b99eed4451b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Sleaves_01.001.mat using Guid(f1dee8d366c2fc84ba3b99eed4451b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2577d49bc70480ecd0193fd098ea7f3') in 0.018281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/character/Materials/Pant_Pocket_02.001.mat
+  artifactKey: Guid(f859e9c5b67ad1742aa7623b3020ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_Pocket_02.001.mat using Guid(f859e9c5b67ad1742aa7623b3020ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b710a8ad29a838b786b922d790fffe2a') in 0.023821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/character/Materials/Pant_Pocket_02.mat
+  artifactKey: Guid(fb02417954cc7a043a4b7b356381b823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_Pocket_02.mat using Guid(fb02417954cc7a043a4b7b356381b823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1a07767183ffe94e40b6cd9bbb5083') in 0.030199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/character/Materials/Material #145.mat
+  artifactKey: Guid(5ed6a2cc8f267304a99d2a4a16c37087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Material #145.mat using Guid(5ed6a2cc8f267304a99d2a4a16c37087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e32f751b0948a675a985742ced8968') in 0.021089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/character/Materials/Pant_Pocket.001.mat
+  artifactKey: Guid(d21361b49eadb8140a03950fba290b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_Pocket.001.mat using Guid(d21361b49eadb8140a03950fba290b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7436ae225d73452c06722624b5c1193') in 0.022088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/character/Materials/Sleaves_02.mat
+  artifactKey: Guid(cdbcdd36b03a8b14fa27df4273ebe8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Sleaves_02.mat using Guid(cdbcdd36b03a8b14fa27df4273ebe8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279b899f793873dbb595804477bbcec2') in 0.012630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/character/Materials/Sleaves_04.mat
+  artifactKey: Guid(755e11d1f4730e1469e061f0d007adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Sleaves_04.mat using Guid(755e11d1f4730e1469e061f0d007adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd6adf595f28aa89d0c2a9b94d34426') in 0.015748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/character/Materials/zip.001.mat
+  artifactKey: Guid(e0f4a3e650a0f58489e9a156c2a74605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/zip.001.mat using Guid(e0f4a3e650a0f58489e9a156c2a74605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15aaa383d8a49ba24c2fb64f1e407c55') in 0.016745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/character/Materials/Pant_03.mat
+  artifactKey: Guid(397f84fc48e95594794d634cf2c982fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_03.mat using Guid(397f84fc48e95594794d634cf2c982fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13ebf993e6616a88ba208a0920a6b9b') in 0.032297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/character/Materials/Sleaves_03.001.mat
+  artifactKey: Guid(9dd339b5e59c00d49808a41d89c99978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Sleaves_03.001.mat using Guid(9dd339b5e59c00d49808a41d89c99978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08b466659aa965526e9adc02cf15934') in 0.016553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/character/Materials/Shirt_Pocket_01.mat
+  artifactKey: Guid(cc78aaaa5986e844cbb46e0d19f72984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Shirt_Pocket_01.mat using Guid(cc78aaaa5986e844cbb46e0d19f72984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a040ca9097266ff7de969418b26548') in 0.031264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/character/Materials/Pant_Pocket_01.mat
+  artifactKey: Guid(0cc0bb5efe7f02a44852da1bb85cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_Pocket_01.mat using Guid(0cc0bb5efe7f02a44852da1bb85cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcff24f075a5c431fa53a2c63d289701') in 0.050638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/character/Materials/Shirt_02.mat
+  artifactKey: Guid(a3013292e8cf7a448821a611fdd511bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Shirt_02.mat using Guid(a3013292e8cf7a448821a611fdd511bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd694a34dc62cdb057e49926235dedc5a') in 0.048010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/character/Materials/Main_Character_01 (1)-Shirt_03.mat
+  artifactKey: Guid(d4d41e25ce8d6414b8b269c15ce31968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Main_Character_01 (1)-Shirt_03.mat using Guid(d4d41e25ce8d6414b8b269c15ce31968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a9fd5cf421ef568822c8cecbd8f86') in 0.019454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/character/Materials/Pant_03.001.mat
+  artifactKey: Guid(8097b6ec614cd1e43b13634889841074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_03.001.mat using Guid(8097b6ec614cd1e43b13634889841074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5208153fbfacf6ff55ab19d9e0ac76') in 0.022633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/character/Materials/Pant_04.001.mat
+  artifactKey: Guid(e09ebb805e1305249ba3497c7c5bacab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_04.001.mat using Guid(e09ebb805e1305249ba3497c7c5bacab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da124a1c27999e3baa4e2f952de49ace') in 0.028989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/character/Materials/Pant_Pocket.mat
+  artifactKey: Guid(faf5232bd0d5f58429c73a7391202bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Pant_Pocket.mat using Guid(faf5232bd0d5f58429c73a7391202bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a1674aa49244ea91442b6e8938a038') in 0.013829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/character/Materials/Shirt_Pocket_03.mat
+  artifactKey: Guid(72a08186c7c0e054398948b38ec9aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Shirt_Pocket_03.mat using Guid(72a08186c7c0e054398948b38ec9aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275c257cfd663d33f85bb27f06b425e8') in 0.072074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/character/Materials/Shirt_04.mat
+  artifactKey: Guid(2d4c1a4568e8896419c79ce56b196579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/Materials/Shirt_04.mat using Guid(2d4c1a4568e8896419c79ce56b196579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f9bfb6a8a3e7f4dda215a9fd61a11c') in 0.024610 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007307 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\F\Pro\Unity\projects\outfit3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\F\Pro\Unity\projects\outfit3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2051ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1531ms)
+			LoadAssemblies (280ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.5 KB). Loaded Objects now: 3766.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 6.223900 ms (FindLiveObjects: 0.751400 ms CreateObjectMapping: 0.243200 ms MarkObjects: 5.190500 ms  DeleteObjects: 0.037200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
