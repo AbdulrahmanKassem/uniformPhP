@@ -1,6 +1,7 @@
 <?php
 $_localize = array(
     'home' => array('en' => 'Home', 'ar' => 'الرئيسية'),
+    'clothes_simulation' => array('en' => 'clothes simulation', 'ar' => 'محاكاة الزي'),
     'sizetable' => array('en' => 'Sizetable', 'ar' => 'جدول المقاسات'),
     'explainer_video' => array('en' => 'Explainer Video', 'ar' => 'فيديو توضيحي'),
     'body_measurements' => array('en' => 'Take body measurements', 'ar' => 'طريقة اخذ مقاسات الجسم بالصور'),
