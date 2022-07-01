@@ -53,7 +53,7 @@ include_once 'header.php'; ?>
                         <input type="hidden" name="Shirt Pockets_color">
                         <input type="hidden" name="Sleeves_color">
                         
-                        <button onclick="sendmsg('checkout.php')" type="button" class="theme-btn btn-style-one"> إكمال الطلب </button>
+                        <button onclick="sendmsg('checkout.php')" type="button" class="theme-btn btn-style-one"><?=$_localize['Complete_the_order'][$_SESSION['lang']]?></button>
                         <button onclick="sendmsg('barcode.php')" type="button" class="theme-btn btn-style-one" target="_blank"><?=$_localize['clothes_simulation'][$_SESSION['lang']]?></button>
                       </form>
 

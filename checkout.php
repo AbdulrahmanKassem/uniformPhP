@@ -19,7 +19,7 @@ require_once 'translationKey.php';
     <div class="checkout-page">
         <div class="auto-container">
         
-        <div class="default-title"><h2> التقرير النهائي </h2></div>
+        <div class="default-title"><h2><?=$_localize['final_report'][$_SESSION['lang']]?></h2></div>
             
         <!--Cart Outer-->
             <div class="cart-outer">
@@ -30,20 +30,20 @@ require_once 'translationKey.php';
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> القماش </h4>
+                                        <h4 class="prod-title"> <?=$_localize['cloth'][$_SESSION['lang']]?> </h4>
                                     </div>
                                 </td>
                                 <td class="qty">
                                     <div class="select-div">
                                         <select class="form-control">
-                                            <option value="">السادة</option>
-                                            <option>المبرد 2/2</option>
-                                            <option>المبرد 2/1</option>
+                                            <option value=""><?=$_localize['plain_weave'][$_SESSION['lang']]?></option>
+                                            <option><?=$_localize['twill'][$_SESSION['lang']]?></option>
+                                            <option><?=$_localize['twill_2'][$_SESSION['lang']]?></option>
                                         </select>
                                         <select class="form-control">
-                                            <option value="">100% قطن </option>
-                                            <option> 65% بوليستر 35% قطن </option>
-                                            <option>  50% بوليستر 50% قطن </option>
+                                            <option value=""><?=$_localize['Cotton_100'][$_SESSION['lang']]?></option>
+                                            <option><?=$_localize['Cotton_65'][$_SESSION['lang']]?></option>
+                                            <option><?=$_localize['Cotton_50'][$_SESSION['lang']]?></option>
                                         </select>
                                     </div>
                                 </td>
@@ -51,19 +51,21 @@ require_once 'translationKey.php';
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title">المقاس</h4>
+                                        <h4 class="prod-title"><?=$_localize['size'][$_SESSION['lang']]?></h4>
                                     </div>
                                 </td>
                                 <td class="qty"><select class="form-control">
-                                    <option value="">متوسط</option>
-                                    <option>صغير</option>
-                                    <option>كبير</option>
+                                    <option value="">XXL</option>
+                                    <option>XL</option>
+                                    <option>L</option>
+                                    <option>M</option>
+                                    <option>S</option>
                                 </select></td>
                             </tr>
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title">الأزرار</h4>
+                                        <h4 class="prod-title"><?=$_localize['buttons'][$_SESSION['lang']]?></h4>
                                     </div>
                                 </td>
                                 <td class="qty text-center">
@@ -88,7 +90,7 @@ require_once 'translationKey.php';
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> سحاب (سوستة) </h4>
+                                        <h4 class="prod-title"><?=$_localize['zipper'][$_SESSION['lang']]?></h4>
                                     </div>
                                 </td>
                                 <td class="qty text-center">
@@ -121,19 +123,19 @@ require_once 'translationKey.php';
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> البطانة </h4>
+                                        <h4 class="prod-title"><?=$_localize['filing'][$_SESSION['lang']]?></h4>
                                     </div>
                                 </td>
                                 <td class="qty"><select class="form-control">
-                                    <option value=""> بطانة خفيفة </option>
-                                    <option>  بطانة ثقيلة </option>
-                                    <option> بدون بطانة </option>
+                                    <option value=""><?=$_localize['light_filing'][$_SESSION['lang']]?></option>
+                                    <option><?=$_localize['heavy_filing'][$_SESSION['lang']]?></option>
+                                    <option><?=$_localize['without'][$_SESSION['lang']]?></option>
                                 </select></td>
                             </tr>
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> التطريز </h4>
+                                        <h4 class="prod-title"> <?=$_localize['embroidery'][$_SESSION['lang']]?> </h4>
                                     </div> 
                                 </td>
                                 <td class="qty">
@@ -143,7 +145,7 @@ require_once 'translationKey.php';
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> تطريز شعار الشركة </h4>
+                                        <h4 class="prod-title"> <?=$_localize['logo_embroidery'][$_SESSION['lang']]?> </h4>
                                     </div> 
                                 </td>
                                 <td class="qty">
