@@ -1,11 +1,27 @@
 <?php include_once 'header.php'; ?>
 
+<link href="css/youtube.css" rel="stylesheet">
+
 <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog  modal-lg">
       <div class="modal-content">
         <div class="modal-body text-center">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <iframe width="100%" height="415" src="https://www.youtube.com/embed/32E7dReissc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <!-- <iframe width="100%" height="415" src="32E7dReissc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+            <div id="player-size" style>
+              <div id="cropping-div" style>
+                <div id="div-to-crop" style>
+                  <div id="player-wrapper">
+                    <!-- 1. The <iframe> (and video 
+                    player) will replace this <div> 
+                    tag. -->
+                    <div id="player"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
         </div>
       </div>
     </div>
@@ -148,7 +164,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Qmu6KM8xMQQ">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Qmu6KM8xMQQ">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -218,7 +234,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Avd-tHrdh1Y">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Avd-tHrdh1Y">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -286,7 +302,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/n9G-6NCjChY">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="n9G-6NCjChY">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -357,7 +373,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/B3GQKaJRjpc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="B3GQKaJRjpc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -421,7 +437,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/uznD002oBlo">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="uznD002oBlo">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -485,7 +501,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/EBPbRd9GBJU">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="EBPbRd9GBJU">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -548,7 +564,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/1RQvsXBG4mM">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="1RQvsXBG4mM">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -617,7 +633,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/adHkziQNT28">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="adHkziQNT28">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -681,7 +697,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/qzSgGgbGb8I">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="qzSgGgbGb8I">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -745,7 +761,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/VpTqBvd3MGA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="VpTqBvd3MGA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -814,7 +830,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/CyTkapafmaw">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="CyTkapafmaw">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -884,7 +900,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/E3aWAvVQBK0">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="E3aWAvVQBK0">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -949,7 +965,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Bem9UVzIVRA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Bem9UVzIVRA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1018,7 +1034,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/3dlOFXjfgEw">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="3dlOFXjfgEw">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1091,7 +1107,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/wmKXjX2IXKQ">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="wmKXjX2IXKQ">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1152,7 +1168,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/LuiPBrs9FNA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="LuiPBrs9FNA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1216,7 +1232,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/BsdAV1CnTyI">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="BsdAV1CnTyI">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1289,7 +1305,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/BsdAV1CnTyI">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="BsdAV1CnTyI">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1359,7 +1375,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/xFy_NpLTQbg">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="xFy_NpLTQbg">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1423,7 +1439,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/V_zgZgr7EZY">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="V_zgZgr7EZY">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1488,7 +1504,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/5VrumT898pc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="5VrumT898pc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1558,7 +1574,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/xSOKML98-g8">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="xSOKML98-g8">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1618,7 +1634,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Ps5SuI5Kryc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Ps5SuI5Kryc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1678,7 +1694,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Ps5SuI5Kryc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Ps5SuI5Kryc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1742,7 +1758,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/U-TXQ6ZKPL8">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="U-TXQ6ZKPL8">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1807,7 +1823,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/TLMYaHE00vo">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="TLMYaHE00vo">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1875,7 +1891,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/9recFcq8Pg4">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="9recFcq8Pg4">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -1940,7 +1956,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/aFBn3n4gq8U">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="aFBn3n4gq8U">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2004,7 +2020,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/8MievdgJVt8">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="8MievdgJVt8">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2068,7 +2084,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/u7oeM_rH3sU">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="u7oeM_rH3sU">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2132,7 +2148,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/ekqepe9C0cA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="ekqepe9C0cA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2196,7 +2212,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/S3ciJeTDUkA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="S3ciJeTDUkA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2260,7 +2276,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/CoypSbTLRF0">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="CoypSbTLRF0">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2328,7 +2344,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Kpy7oBd3QTc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Kpy7oBd3QTc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2392,7 +2408,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/kiIadMUpdho">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="kiIadMUpdho">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2456,7 +2472,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/qMuismkqQbQ">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="qMuismkqQbQ">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2520,7 +2536,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/6ai3ti2nwzU">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="6ai3ti2nwzU">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2584,7 +2600,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/UXCvwRjmbsM">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="UXCvwRjmbsM">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2648,7 +2664,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/O0DCjbGtQj4">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="O0DCjbGtQj4">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2712,7 +2728,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/L0ZG0P9cdtA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="L0ZG0P9cdtA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2776,7 +2792,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/bywzehg7uuA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="bywzehg7uuA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2840,7 +2856,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/WDLEoMVvn5M">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="WDLEoMVvn5M">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2904,7 +2920,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/6Pd_q23D2W0">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="6Pd_q23D2W0">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -2972,7 +2988,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/3yFFe1PpV70">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="3yFFe1PpV70">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3037,7 +3053,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/3IefCGieEQg">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="3IefCGieEQg">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3102,7 +3118,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/5z3csSKOv_E">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="5z3csSKOv_E">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3167,7 +3183,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/xPvyjYWNEJA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="xPvyjYWNEJA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3232,7 +3248,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/VyjZazQv4Co">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="VyjZazQv4Co">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3294,7 +3310,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/HcEtqTMmJe4">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="HcEtqTMmJe4">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3359,7 +3375,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/MiBufnGXfKo">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="MiBufnGXfKo">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3424,7 +3440,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/hmuucIQetVI">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="hmuucIQetVI">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3490,7 +3506,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/P4Qj_ZGJCi8">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="P4Qj_ZGJCi8">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3555,7 +3571,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/MeE_7Ah0pJY">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="MeE_7Ah0pJY">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3621,7 +3637,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Zq70s8UNeeY">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Zq70s8UNeeY">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3687,7 +3703,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/nLyaksQx8XA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="nLyaksQx8XA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3753,7 +3769,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/MJ-5aIJvKlg">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="MJ-5aIJvKlg">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3818,7 +3834,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/nubxJx-I7jE">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="nubxJx-I7jE">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3885,7 +3901,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/ODsBwu7AKjg">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="ODsBwu7AKjg">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -3955,7 +3971,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/joeY6rQZBLk">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="joeY6rQZBLk">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4020,7 +4036,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/tU9z8Pg9VYk">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="tU9z8Pg9VYk">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4275,7 +4291,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Qmu6KM8xMQQ">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Qmu6KM8xMQQ">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4345,7 +4361,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Avd-tHrdh1Y">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Avd-tHrdh1Y">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4413,7 +4429,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/n9G-6NCjChY">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="n9G-6NCjChY">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4484,7 +4500,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/B3GQKaJRjpc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="B3GQKaJRjpc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4548,7 +4564,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/uznD002oBlo">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="uznD002oBlo">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4612,7 +4628,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/EBPbRd9GBJU">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="EBPbRd9GBJU">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4675,7 +4691,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/1RQvsXBG4mM">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="1RQvsXBG4mM">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4744,7 +4760,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/adHkziQNT28">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="adHkziQNT28">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4808,7 +4824,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/qzSgGgbGb8I">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="qzSgGgbGb8I">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4872,7 +4888,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/VpTqBvd3MGA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="VpTqBvd3MGA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -4941,7 +4957,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/CyTkapafmaw">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="CyTkapafmaw">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5011,7 +5027,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/E3aWAvVQBK0">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="E3aWAvVQBK0">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5076,7 +5092,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Bem9UVzIVRA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Bem9UVzIVRA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5145,7 +5161,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/3dlOFXjfgEw">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="3dlOFXjfgEw">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5218,7 +5234,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/wmKXjX2IXKQ">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="wmKXjX2IXKQ">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5279,7 +5295,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/LuiPBrs9FNA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="LuiPBrs9FNA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5343,7 +5359,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/BsdAV1CnTyI">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="BsdAV1CnTyI">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5416,7 +5432,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/BsdAV1CnTyI">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="BsdAV1CnTyI">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5486,7 +5502,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/xFy_NpLTQbg">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="xFy_NpLTQbg">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5550,7 +5566,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/V_zgZgr7EZY">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="V_zgZgr7EZY">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5615,7 +5631,7 @@
         </p>
       </td>
       <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/5VrumT898pc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="5VrumT898pc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5685,7 +5701,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/xSOKML98-g8">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="xSOKML98-g8">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5745,7 +5761,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Ps5SuI5Kryc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Ps5SuI5Kryc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5805,7 +5821,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Ps5SuI5Kryc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Ps5SuI5Kryc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5869,7 +5885,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/U-TXQ6ZKPL8">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="U-TXQ6ZKPL8">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -5934,7 +5950,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/TLMYaHE00vo">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="TLMYaHE00vo">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6002,7 +6018,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/9recFcq8Pg4">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="9recFcq8Pg4">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6067,7 +6083,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/aFBn3n4gq8U">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="aFBn3n4gq8U">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6131,7 +6147,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/8MievdgJVt8">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="8MievdgJVt8">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6195,7 +6211,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/u7oeM_rH3sU">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="u7oeM_rH3sU">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6259,7 +6275,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/ekqepe9C0cA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="ekqepe9C0cA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6323,7 +6339,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/S3ciJeTDUkA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="S3ciJeTDUkA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6387,7 +6403,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/CoypSbTLRF0">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="CoypSbTLRF0">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6455,7 +6471,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Kpy7oBd3QTc">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Kpy7oBd3QTc">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6519,7 +6535,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/kiIadMUpdho">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="kiIadMUpdho">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6583,7 +6599,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/qMuismkqQbQ">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="qMuismkqQbQ">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6647,7 +6663,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/6ai3ti2nwzU">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="6ai3ti2nwzU">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6711,7 +6727,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/UXCvwRjmbsM">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="UXCvwRjmbsM">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6775,7 +6791,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/O0DCjbGtQj4">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="O0DCjbGtQj4">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6839,7 +6855,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/L0ZG0P9cdtA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="L0ZG0P9cdtA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6903,7 +6919,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/bywzehg7uuA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="bywzehg7uuA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -6967,7 +6983,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/WDLEoMVvn5M">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="WDLEoMVvn5M">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7031,7 +7047,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/6Pd_q23D2W0">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="6Pd_q23D2W0">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7099,7 +7115,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/3yFFe1PpV70">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="3yFFe1PpV70">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7164,7 +7180,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/3IefCGieEQg">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="3IefCGieEQg">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7229,7 +7245,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/5z3csSKOv_E">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="5z3csSKOv_E">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7294,7 +7310,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/xPvyjYWNEJA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="xPvyjYWNEJA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7359,7 +7375,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/VyjZazQv4Co">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="VyjZazQv4Co">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7421,7 +7437,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/HcEtqTMmJe4">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="HcEtqTMmJe4">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7486,7 +7502,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/MiBufnGXfKo">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="MiBufnGXfKo">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7551,7 +7567,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/hmuucIQetVI">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="hmuucIQetVI">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7617,7 +7633,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/P4Qj_ZGJCi8">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="P4Qj_ZGJCi8">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7682,7 +7698,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/MeE_7Ah0pJY">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="MeE_7Ah0pJY">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7748,7 +7764,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/Zq70s8UNeeY">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="Zq70s8UNeeY">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7814,7 +7830,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/nLyaksQx8XA">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="nLyaksQx8XA">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7880,7 +7896,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/MJ-5aIJvKlg">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="MJ-5aIJvKlg">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -7945,7 +7961,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/nubxJx-I7jE">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="nubxJx-I7jE">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -8012,7 +8028,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/ODsBwu7AKjg">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="ODsBwu7AKjg">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -8082,7 +8098,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/joeY6rQZBLk">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="joeY6rQZBLk">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -8147,7 +8163,7 @@
       </p>
     </td>
     <td class="text-center" style="padding-top: 17px;font-size:2em;border:solid windowtext 1.0pt;  border-top:none;padding:0in 1.4pt 0in 1.4pt">
-        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="https://www.youtube.com/embed/tU9z8Pg9VYk">
+        <a href="#videoModal" class="video-link" data-toggle="modal" data-src="tU9z8Pg9VYk">
             <i class="fa fa-play-circle"></i>
         </a>
       </td>
@@ -8294,13 +8310,41 @@
   <script>
 $(function(){
 
+  var tag = document.createElement("script");
+
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName("script")[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var player;
+
   $(".video-link").click(function(e){
     e.preventDefault();
-    $("#videoModal iframe").attr("src", ($(this).attr('data-src')+"?autoplay=1"));
+    /* $("#videoModal iframe").attr("src", ($(this).attr('data-src')+"?autoplay=1")); */
+    player = new YT.Player("player", {
+      host: "https://www.youtube.com",
+      videoId: $(this).attr('data-src'),
+      playerVars: {
+        enablejsapi: 1,
+        playsinline: 0,
+        start: 0,
+        disablekb: 0,
+        autoplay: 1
+      },
+      events: {
+        'onStateChange': onPlayerStateChange
+      }
+    });
   });
 
+  function onPlayerStateChange(event) {
+    if(event.data == YT.PlayerState.ENDED)
+      player.stopVideo();
+  }
+
   $('#videoModal').on('hidden.bs.modal', function () {
-    $("#videoModal iframe").attr("src", "");
+    /* $("#videoModal iframe").attr("src", ""); */
+    player.destroy();
   });
 
 });
