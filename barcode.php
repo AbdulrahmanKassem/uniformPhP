@@ -48,7 +48,7 @@
     </div>
 
     <?php include_once 'footer.php'; ?>
-<script type="text/javascript" src="qrcode.js"></script>
+<script type="text/javascript" src="qrcode/qrcode.js"></script>
 <script type="text/javascript">
 
 <?php 
@@ -79,7 +79,8 @@
         echo '
         var qrcode = new QRCode(document.getElementById("qrcode"), {
                 width : 200,
-                height : 200
+                height : 200,
+                correctLevel : QRCode.CorrectLevel.H
         });    
         qrcode.makeCode("https://prime.edu.pk/cpreview/index.php?query='.$query.'");';
         
