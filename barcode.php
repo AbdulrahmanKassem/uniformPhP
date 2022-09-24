@@ -82,7 +82,7 @@
                 height : 200,
                 correctLevel : QRCode.CorrectLevel.H
         });    
-        qrcode.makeCode("https://prime.edu.pk/cpreview/index.php?query='.$query.'");';
+        qrcode.makeCode("https://cloths.digital/cpreview/index.php?query='.$query.'");';
         
     }
 ?>
