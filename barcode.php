@@ -2,7 +2,7 @@
 	<!--Page Title-->
     <section class="page-title" style="background-image: url(images/background/4.jpeg);">
     	<div class="auto-container">
-        	<h1>الدفع</h1>
+        	<h1><?= $_localize['showـoutfit'][$_SESSION['lang']] ?></h1>
         	<ul class="bread-crumb">
                 <li><a href="index-2.html">الرئيسية</a></li>
                 <li class="active">الباركود</li>
@@ -39,7 +39,8 @@
                     </table>
                 </div>
                 <div class="end-order clearfix">
-                    <a href="index.php" type="button" class="theme-btn btn-style-one"> إنهاء  </a>
+                <button onclick="javascript:history.go(-1)" type="button" class="theme-btn btn-style-one" target="_blank"><?= $_localize['previous'][$_SESSION['lang']] ?></button>
+                <button onclick="sendmsg('checkout.php')" type="button" class="theme-btn btn-style-one"><?=$_localize['Complete_the_order'][$_SESSION['lang']]?></button>
                 </div>
                 
             </div>

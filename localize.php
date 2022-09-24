@@ -1,6 +1,8 @@
 <?php
 $_localize = array(
     'home' => array('en' => 'Home', 'ar' => 'الرئيسية'),
+    'showـoutfit' => array('en' => 'Show outfit', 'ar' => 'العرض'),
+    'previous' => array('en' => 'Previous', 'ar' => 'رجوع'),
     'plain_weave' => array('en' => 'Plain Weave 1/1', 'ar' => 'السادة'),
     'twill' => array('en' => 'Twill 2/2', 'ar' => 'المبرد 2/2'),
     'twill_2' => array('en' => 'Twill 2/1', 'ar' => 'المبرد 2/1'),
