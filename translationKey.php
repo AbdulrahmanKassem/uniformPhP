@@ -28,7 +28,7 @@ if($_SESSION['lang']=='ar'){
      unset($_POST['Shirt_Button_Zip']);
 
 
-     $_POST['بنطال'] = $_POST['Shirts'];
+     $_POST['قميص'] = $_POST['Shirts'];
      unset($_POST['Shirts']);
 
 
