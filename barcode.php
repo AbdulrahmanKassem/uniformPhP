@@ -68,7 +68,7 @@
                 </div>
                 <div class="end-order clearfix">
                     <button onclick="javascript:history.go(-1)" type="button" class="theme-btn btn-style-one" target="_blank"><?= $_localize['previous'][$_SESSION['lang']] ?></button>
-                    <button type="button" class="theme-btn btn-style-one"><?= $_localize['show_barcode'][$_SESSION['lang']] ?></button>
+                    <a href="#" id="show_barcode" target="_blank" class="theme-btn btn-style-one"><?= $_localize['show_barcode'][$_SESSION['lang']] ?></a>
                     <button type="submit" class="theme-btn btn-style-one"><?= $_localize['Complete_the_order'][$_SESSION['lang']] ?></button>
                 </div>
             </form>
@@ -114,6 +114,9 @@
                 correctLevel : QRCode.CorrectLevel.H
         });    
         qrcode.makeCode("https://cloths.digital/cpreview/index.php?query=' . $query . '");';
+
+
     }
     ?>
+    $("#show_barcode").attr("href", "<?php echo "https://cloths.digital/cpreview/index.php?query=$query" ?>");
 </script>
