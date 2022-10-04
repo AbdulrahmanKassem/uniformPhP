@@ -94,7 +94,7 @@
                 if ($key == 'Shirt_Button_Zip') {
                     $index = 'Shirt_Button_Zip';
                 } else {
-                    $index = str_replace('_', ' ', $key);
+                    $index = str_replace('_', '%20', $key);
                 }
 
                 if ($i == 1) {
