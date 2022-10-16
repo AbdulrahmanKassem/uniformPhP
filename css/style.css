@@ -4077,3 +4077,18 @@ input:focus {
 .end-order{
 	text-align: right;
 }
+.completePage-txt {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background: #ddd;
+    padding: 60px 20px;
+}
+.completePage-txt h3{
+	font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.completePage-txt .end-order{
+	text-align: center;
+}
