@@ -1,46 +1,53 @@
 <?php include_once 'header.php'; ?>
+<?php
+if (isset($_POST['Collars'])) {
+    $_SESSION['cloths'] = $_POST;
+}
+?>
+<!--Page Title-->
+<section class="page-title" style="background-image: url(images/background/bg_checkout.jpg);">
+    <div class="auto-container">
+        <h1>الدفع</h1>
+        <ul class="bread-crumb">
+            <li><a href="">الرئيسية</a></li>
+            <li class="active">الدفع</li>
+        </ul>
+    </div>
+</section>
+<!--End Page Title-->
 
-	<!--Page Title-->
-    <section class="page-title" style="background-image: url(images/background/bg_checkout.jpg);">
-    	<div class="auto-container">
-        	<h1>الدفع</h1>
-        	<ul class="bread-crumb">
-                <li><a href="">الرئيسية</a></li>
-                <li class="active">الدفع</li>
-            </ul>
+<!--Checkout Page-->
+<div class="checkout-page">
+    <div class="auto-container">
+
+        <div class="default-title">
+            <h2><?= $_localize['final_report'][$_SESSION['lang']] ?></h2>
         </div>
-    </section>
-    <!--End Page Title-->
-
-	<!--Checkout Page-->
-    <div class="checkout-page">
-        <div class="auto-container">
-        
-        <div class="default-title"><h2><?=$_localize['final_report'][$_SESSION['lang']]?></h2></div>
-            
+ <form action="complete_order.php" method="POST">
         <!--Cart Outer-->
-            <div class="cart-outer">
-                <div class="table-outer" style="background-color:unset !important;">
+        <div class="cart-outer">
+            <div class="table-outer" style="background-color:unset !important;">
+               
                     <table class="table table-bordered table-striped table-hover checkout-table">
 
                         <tbody>
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> <?=$_localize['cloth'][$_SESSION['lang']]?> </h4>
+                                        <h4 class="prod-title"> <?= $_localize['cloth'][$_SESSION['lang']] ?> </h4>
                                     </div>
                                 </td>
                                 <td class="qty">
                                     <div class="select-div">
-                                        <select class="form-control">
-                                            <option value=""><?=$_localize['plain_weave'][$_SESSION['lang']]?></option>
-                                            <option><?=$_localize['twill'][$_SESSION['lang']]?></option>
-                                            <option><?=$_localize['twill_2'][$_SESSION['lang']]?></option>
+                                        <select class="form-control" name="type1">
+                                            <option value="plain_weave"><?= $_localize['plain_weave'][$_SESSION['lang']] ?></option>
+                                            <option value="twill"><?= $_localize['twill'][$_SESSION['lang']] ?></option>
+                                            <option value="twill_2"><?= $_localize['twill_2'][$_SESSION['lang']] ?></option>
                                         </select>
-                                        <select class="form-control">
-                                            <option value=""><?=$_localize['Cotton_100'][$_SESSION['lang']]?></option>
-                                            <option><?=$_localize['Cotton_65'][$_SESSION['lang']]?></option>
-                                            <option><?=$_localize['Cotton_50'][$_SESSION['lang']]?></option>
+                                        <select class="form-control" name="type2">
+                                            <option value="Cotton_100"><?= $_localize['Cotton_100'][$_SESSION['lang']] ?></option>
+                                            <option value="Cotton_65"><?= $_localize['Cotton_65'][$_SESSION['lang']] ?></option>
+                                            <option value="Cotton_50"><?= $_localize['Cotton_50'][$_SESSION['lang']] ?></option>
                                         </select>
                                     </div>
                                 </td>
@@ -48,21 +55,29 @@
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"><?=$_localize['size'][$_SESSION['lang']]?></h4>
+                                        <h4 class="prod-title"><?= $_localize['size'][$_SESSION['lang']] ?></h4>
+                                        <span>
+                                            <i class="fa fa-info-circle"></i>
+                                            <a href="sizetable.php" class="text-info bg-info">
+                                                ( <?= $_localize['details'][$_SESSION['lang']] ?>)
+                                            </a>
+                                        </span>
                                     </div>
                                 </td>
-                                <td class="qty"><select class="form-control">
-                                    <option value="">XXL</option>
-                                    <option>XL</option>
-                                    <option>L</option>
-                                    <option>M</option>
-                                    <option>S</option>
-                                </select></td>
+                                <td class="qty">
+                                    <select class="form-control" name="size">
+                                        <option>XXL</option>
+                                        <option>XL</option>
+                                        <option>L</option>
+                                        <option>M</option>
+                                        <option>S</option>
+                                    </select>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"><?=$_localize['buttons'][$_SESSION['lang']]?></h4>
+                                        <h4 class="prod-title"><?= $_localize['buttons'][$_SESSION['lang']] ?></h4>
                                     </div>
                                 </td>
                                 <td class="qty text-center">
@@ -87,7 +102,7 @@
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"><?=$_localize['zipper'][$_SESSION['lang']]?></h4>
+                                        <h4 class="prod-title"><?= $_localize['zipper'][$_SESSION['lang']] ?></h4>
                                     </div>
                                 </td>
                                 <td class="qty text-center">
@@ -104,15 +119,15 @@
                                         <img src="images/parts/zipper3.jpg" class="zipper-img-st" />
                                     </label>
                                     <label>
-                                        <input type="radio" name="zipper" value="4">
+                                        <input type="radio" name="chain" value="4" checked>
                                         <img src="images/parts/zipper4.jpg" class="zipper-img-st" />
                                     </label>
                                     <label>
-                                        <input type="radio" name="zipper" value="5">
+                                        <input type="radio" name="chain" value="5">
                                         <img src="images/parts/zipper5.jpg" class="zipper-img-st" />
                                     </label>
                                     <label>
-                                        <input type="radio" name="zipper" value="6">
+                                        <input type="radio" name="chain" value="6">
                                         <img src="images/parts/zipper6.jpg" class="zipper-img-st" />
                                     </label>
                                 </td>
@@ -120,20 +135,21 @@
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"><?=$_localize['filing'][$_SESSION['lang']]?></h4>
+                                        <h4 class="prod-title"><?= $_localize['filing'][$_SESSION['lang']] ?></h4>
                                     </div>
                                 </td>
-                                <td class="qty"><select class="form-control">
-                                    <option value=""><?=$_localize['light_filing'][$_SESSION['lang']]?></option>
-                                    <option><?=$_localize['heavy_filing'][$_SESSION['lang']]?></option>
-                                    <option><?=$_localize['without'][$_SESSION['lang']]?></option>
-                                </select></td>
+                                <td class="qty">
+                                    <select class="form-control" name="filling">
+                                        <option value="light_filing"><?= $_localize['light_filing'][$_SESSION['lang']] ?></option>
+                                        <option value="heavy_filing"><?= $_localize['heavy_filing'][$_SESSION['lang']] ?></option>
+                                        <option value="without"><?= $_localize['without'][$_SESSION['lang']] ?></option>
+                                    </select></td>
                             </tr>
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> <?=$_localize['embroidery'][$_SESSION['lang']]?> </h4>
-                                    </div> 
+                                        <h4 class="prod-title"> <?= $_localize['embroidery'][$_SESSION['lang']] ?> </h4>
+                                    </div>
                                 </td>
                                 <td class="qty">
                                     <input class="attc-file" type="file" id="myfile" name="myfile">
@@ -142,73 +158,99 @@
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> <?=$_localize['logo_embroidery'][$_SESSION['lang']]?> </h4>
-                                    </div> 
+                                        <h4 class="prod-title"> <?= $_localize['logo_embroidery'][$_SESSION['lang']] ?> </h4>
+                                    </div>
                                 </td>
                                 <td class="qty">
                                     <input class="attc-file" type="file" id="myfile" name="myfile">
                                 </td>
                             </tr>
-                            <?php if(count($_POST)){ foreach($_POST as $row=>$key){ if($key!='' && !strpos($row, '_color')){ ?>
+                            <?php if (isset($_SESSION['cloths'])) {
+                                foreach ($_SESSION['cloths'] as $row => $key) {
+                                    if ($key != '' && !strpos($row, '_color')) { ?>
+                                        <tr>
+                                            <td class="prod-column">
+                                                <div class="column-box">
+                                                    <!--<figure class="prod-thumb"><a href="#"><img src="images/resource/products/product-10.jpg" alt=""></a></figure>-->
+                                                    <h4 class="prod-title">
+                                                        <?= str_replace('_', ' ', $row) ?>
+                                                    </h4>
+                                                </div>
+                                            </td>
+                                            <td class="qty">
+                                                <?= $key ?>
+                                                &nbsp;
+                                                <span style=" display: inline-block;width: 20px ; height: 20px; border: 1px solid ; background-color:<?php echo isset($_SESSION['cloths'][$row . '_color']) ? '#' . substr($_SESSION['cloths'][$row . '_color'], 0, 6) : 'fff' ?> ;">
+
+                                                </span>
+                                            </td>
+                                        </tr>
+                                <?php }
+                                } ?>
                                 <tr>
-                                    <td class="prod-column">
-                                        <div class="column-box">
-                                            <!--<figure class="prod-thumb"><a href="#"><img src="images/resource/products/product-10.jpg" alt=""></a></figure>-->
-                                            <h4 class="prod-title"><?= str_replace('_', ' ', $row)?></h4>
-                                        </div>
+                                    <td colspan="2">
+                                        <h4 class="prod-title">
+                                            <a href="guide-pdf/guide-<?= $_SESSION['lang'] ?>.pdf" class="btn btn-primary">
+                                                <i class="fa fa-file-pdf-o"></i>
+                                                <?= $_localize['guid'][$_SESSION['lang']] ?>
+                                            </a>
+                                        </h4>
                                     </td>
-                                    <td class="qty"><?=$key?></td>
+
                                 </tr>
-                            <?php }} ?>
-                            <tr>
-                                <td colspan="2" class="text-center">
-                                    <div id="qrcode"></div>
-                                </td>
-                            </tr>
-                            <?php }else{ echo '<tr><td colspan="2" class="text-center">لا طلب</td></tr>'; } ?>
+                                <tr>
+                                    <td colspan="2" class="text-center">
+                                        <div id="qrcode"></div>
+                                    </td>
+                                </tr>
+                            <?php } else {
+                                echo '<tr><td colspan="2" class="text-center">لا طلب</td></tr>';
+                            } ?>
                         </tbody>
                     </table>
-                </div>
-                
                 
             </div>
 
-            <div class="end-order clearfix">
-                <a href="complete_order.php" type="button" class="theme-btn btn-style-one"> إتمام الطلب </a>
-            </div>
 
-            </div>
         </div>
-    </div>
 
-    <?php include_once 'footer.php'; ?>
+        <div class="end-order clearfix">
+            <a href="#" id="show_barcode" target="_blank" class="theme-btn btn-style-one"><?= $_localize['show_barcode'][$_SESSION['lang']] ?></a>
+            <button type="submit" class="theme-btn btn-style-one"> إتمام الطلب </button>
+        </div>
+</form>
+    </div>
+</div>
+</div>
+
+
+<?php include_once 'footer.php'; ?>
 <script type="text/javascript" src="qrcode/qrcode.js"></script>
 <script type="text/javascript">
+    <?php
 
-<?php 
-
-    if(count($_POST)){
-        $query='';
-        $i=1;
-        foreach($_POST as $key=>$value):
-            if($value!='' && !strpos($key, '_color')){
-                if($key == 'Overall_Button_Zip' ){
+    if (isset($_SESSION['cloths'])) {
+        $query = '';
+        $i = 1;
+        foreach ($_SESSION['cloths'] as $key => $value) :
+            if ($value != '' && !strpos($key, '_color')) {
+                if ($key == 'Overall_Button_Zip') {
                     $index = 'Shirt Button_Zip';
                 }
-                if($key == 'Shirt_Button_Zip'){
+                if ($key == 'Shirt_Button_Zip') {
                     $index = 'Shirt_Button_Zip';
-                }else{
-                    $index = str_replace('_', ' ', $key);
+                } else {
+                    $index = str_replace('_', '%20', $key);
                 }
-                debug_to_console("key valye = $key");
 
-                if($i==1){
-                    $query .= "$index,".$_POST[$key.'_color'].",$value";$i++;
-                }else
-                    $query .= "|$index,".$_POST[$key.'_color'].",$value";
+                if ($i == 1) {
+                    $query .= "$index," . $_SESSION['cloths'][$key . '_color'] . ",$value";
+                    $i++;
+                } else
+                    $query .= "|$index," . $_SESSION['cloths'][$key . '_color'] . ",$value";
             }
         endforeach;
-        if($_POST['Overalls']!=''){
+        if ($_SESSION['cloths']['Overalls'] != '') {
             $query .= '|Shirts,000000,4|Pants,000000,5';
         }
         echo '
@@ -217,10 +259,8 @@
                 height : 200,
                 correctLevel : QRCode.CorrectLevel.H
         });    
-         qrcode.makeCode("https://cloths.digital/cpreview/index.php?query='.$query.'");';
-        
+        qrcode.makeCode("https://cloths.digital/cpreview/index.php?query=' . $query . '");';
     }
-?>
-
-
+    ?>
+    $("#show_barcode").attr("href", "<?php echo "https://cloths.digital/cpreview/index.php?query=$query" ?>");
 </script>

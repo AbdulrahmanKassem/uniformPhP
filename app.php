@@ -157,4 +157,4 @@ include_once 'header.php'; ?>
         unityIns.SendMessage('main_character', 'jsCall');
     }
     </script>
-<?php include_once 'footer.php'; ?>
+<?php include_once 'footer.php'; clearstatcache(); ?>

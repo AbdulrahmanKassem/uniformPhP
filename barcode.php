@@ -1,4 +1,9 @@
 <?php include_once 'header.php'; ?>
+<?php
+if (isset($_POST['Collars'])) {
+    $_SESSION['cloths'] = $_POST;
+}
+?>
 <!--Page Title-->
 <section class="page-title" style="background-image: url(images/background/bg_barcode.jpeg);">
     <div class="auto-container">

@@ -1,12 +1,12 @@
 const cacheName = "DefaultCompany-clothing-0.1";
-const contentToCache = [
+/*const contentToCache = [
     "Build/b34.loader.js",
     "Build/b34.framework.js",
     "Build/b34.data",
     "Build/b34.wasm",
     "TemplateData/style.css"
 
-];
+];*/
 
 self.addEventListener('install', function (e) {
     console.log('[Service Worker] Install');

@@ -71,5 +71,12 @@ $_localize = array(
     We are an online store for design and production the workers uniforms by using new and advanced technology to support the scientific and technical trends and to reduce time and costs of apparel production to satisfy consumer requirements.
     The researcher used the Extended Reality technology to produce the pre sample of the uniform to develop the main product of apparel.', 'ar' => '
     -	تحديد المتطلبات التقنية لإنتاج العينة الأولى لملابس العمال ( الأفرول ) في صناعة الملابس الجاهزة <br>
--	تصميم قاعدة بيانات لمفردات العينة الأولى لملابس العمال ( الأفرول ) باستخدام تقنية الواقع الممتد  (Extended Realit) <br>-	قياس أثر استخدام تقنية الواقع الممتد )  ( Extended Realit في انتاج العينة الأولى ملابس العمال ( الأفرول ) على خفض زمن و تكلفة و رفع جودة العينات المنتجة .')
+-	تصميم قاعدة بيانات لمفردات العينة الأولى لملابس العمال ( الأفرول ) باستخدام تقنية الواقع الممتد  (Extended Realit) <br>-	قياس أثر استخدام تقنية الواقع الممتد )  ( Extended Realit في انتاج العينة الأولى ملابس العمال ( الأفرول ) على خفض زمن و تكلفة و رفع جودة العينات المنتجة .'),
+'final_design' => array('en' => 'Final design', 'ar' => 'التصميم النهائي'),
+'details' => array('en' => 'Details', 'ar' => 'تفاصيل'),
+'print' => array('en' => 'Print', 'ar' => 'طباعة'),
+'save' => array('en' => 'Save', 'ar' => 'حفظ'),
+'finalize' => array('en' => 'Finalize', 'ar' => 'إنهاء'),
+'print_pdf' => array('en' => 'Print PDF', 'ar' => 'طباعة PDF'),
+'final_msg' => array('en' => 'We will contact you within 24 hours', 'ar' => 'سيتم التواصل معكم في خلال 24 ساعة'),
 );

@@ -40,8 +40,9 @@ $sec = 0;
           <h3 class="title text-primary text-center">
             <?= $_localize['guid_heading'][$_SESSION['lang']] ?>
           </h3>
-          <br />
-          <br />
+          <div class="title font-weight-bold  text-center">
+            <a class="h3" data-toggle="modal" data-target="#ModalCarousel"><?= $_localize['final_design'][$_SESSION['lang']] ?></a>
+          </div>
           <div class="text">
             <div class="table-responsive">
               <?PHP
@@ -178,6 +179,40 @@ $sec = 0;
     </div>
   </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="ModalCarousel" tabindex="-1" role="dialog" aria-labelledby="ModalCarouselLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div id="carousel-modal-demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Sliding images statring here -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/products/1.jpg" alt="final design 1">
+          </div>
+          <div class="item">
+            <img src="images/products/2.jpg" alt="final design 2">
+          </div>
+          <div class="item">
+            <img src="images/products/3.jpg" alt="final design 3">
+          </div>
+
+        </div>
+        <!-- Next / Previous controls here -->
+        <a class="left carousel-control" href="#carousel-modal-demo" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-modal-demo" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!--End Two Default Section-->
 <?php include_once 'footer.php'; ?>
 
@@ -206,6 +241,7 @@ $sec = 0;
         }
       });
     });
+
     function onPlayerStateChange(event) {
       if (event.data == YT.PlayerState.ENDED)
         player.stopVideo();
