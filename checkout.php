@@ -7,11 +7,7 @@ if (isset($_POST['Collars'])) {
 <!--Page Title-->
 <section class="page-title" style="background-image: url(images/background/bg_checkout.jpg);">
     <div class="auto-container">
-        <h1>الدفع</h1>
-        <ul class="bread-crumb">
-            <li><a href="">الرئيسية</a></li>
-            <li class="active">الدفع</li>
-        </ul>
+        <h1><?= $_localize['final_report'][$_SESSION['lang']] ?></h1>
     </div>
 </section>
 <!--End Page Title-->
@@ -72,6 +68,20 @@ if (isset($_POST['Collars'])) {
                                         <option>M</option>
                                         <option>S</option>
                                     </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="prod-column">
+                                    <div class="column-box">
+                                        <h4 class="prod-title"> <?= $_localize['thread_type'][$_SESSION['lang']] ?> </h4>
+                                    </div>
+                                </td>
+                                <td class="qty">
+                                    <div class="select-div">
+                                        <select class="form-control" name="thread_type">
+                                            <option value="thread_type"><?= $_localize['Cotton_100'][$_SESSION['lang']] ?></option>
+                                        </select>
+                                    </div>
                                 </td>
                             </tr>
                             <tr>

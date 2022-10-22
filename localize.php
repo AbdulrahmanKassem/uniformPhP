@@ -79,4 +79,6 @@ $_localize = array(
 'finalize' => array('en' => 'Finalize', 'ar' => 'إنهاء'),
 'print_pdf' => array('en' => 'Print PDF', 'ar' => 'طباعة PDF'),
 'final_msg' => array('en' => 'We will contact you within 24 hours', 'ar' => 'سيتم التواصل معكم في خلال 24 ساعة'),
+'thread_type' => array('en' => 'Thread type', 'ar' => 'نوع الخيط'),
+'final_report' => array('en' => 'Final report', 'ar' => 'التقرير النهائي')
 );

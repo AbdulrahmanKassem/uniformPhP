@@ -4,6 +4,7 @@ if (isset($_POST['type1'])) {
     $_SESSION['cloths1']['type1'] = $_POST['type1'];
     $_SESSION['cloths1']['type2'] = $_POST['type2'];
     $_SESSION['cloths1']['size'] = $_POST['size'];
+    $_SESSION['cloths1']['thread_value'] = $_POST['thread_value'];
     $_SESSION['cloths1']['zipper'] = $_POST['zipper'];
     $_SESSION['cloths1']['chain'] = $_POST['chain'];
     $_SESSION['cloths1']['buttons'] = $_POST['buttons'];
@@ -76,6 +77,18 @@ if (isset($_POST['type1'])) {
                             </td>
                             <td class="qty">
                                 <?php echo $_SESSION['cloths1']['size'] ?>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td class="prod-column">
+                                <div class="column-box">
+                                    <h5 class="prod-title"> <?= $_localize['thread_type'][$_SESSION['lang']] ?> </h5>
+                                </div>
+                            </td>
+                            <td class="qty">
+                                <div class="select-div">
+                                    <?= $_localize['Cotton_100'][$_SESSION['lang']] ?>
+                                </div>
                             </td>
                         </tr>
                         <tr>
