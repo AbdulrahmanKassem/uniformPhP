@@ -15,7 +15,7 @@ $_localize = array(
     'logo_embroidery' => array('en' => 'Logo Embroidery', 'ar' => 'تطريز الشعار '),
     'clothes_simulation' => array('en' => 'Clothes simulation', 'ar' => 'محاكاة الزي'),
     'Complete_the_order' => array('en' => 'Complete the order', 'ar' => 'إكمال الطلب'),
-    'final_report' => array('en' => 'The final report', 'ar' => 'التقرير النهائي'),
+    'final_report' => array('en' => 'The final report', 'ar' => 'التقرير  النهائي'),
     'Cotton_100' => array('en' => 'Cotton 100%', 'ar' => '100% قطن'),
     'Cotton_65' => array('en' => '65% polyester 35% cotton', 'ar' => '65% بوليستر 35% قطن'),
     'Cotton_50' => array('en' => '50% polyester 50% cotton', 'ar' => ' 50% بوليستر 50% قطن'),
@@ -79,6 +79,9 @@ $_localize = array(
 'finalize' => array('en' => 'Finalize', 'ar' => 'إنهاء'),
 'print_pdf' => array('en' => 'Print PDF', 'ar' => 'طباعة PDF'),
 'final_msg' => array('en' => 'We will contact you within 24 hours', 'ar' => 'سيتم التواصل معكم في خلال 24 ساعة'),
-'thread_type' => array('en' => 'Thread type', 'ar' => 'نوع الخيط'),
-'final_report' => array('en' => 'Final report', 'ar' => 'التقرير النهائي')
+'design_production' => array('en' => 'Design production steps', 'ar' => 'مراحل انتاج التصميم'),
+'cloth_weight' => array('en' => 'Cloth weight', 'ar' => 'وزن القماش'),
+'buttons_color' => array('en' => 'Button and Zipper Color ', 'ar' => 'لون الازرار و سحاب (سوستة)'),
+'zipper_color' => array('en' => 'Zipper Color', 'ar' => 'لون سحاب (سوستة)'),
+'cloth_number' => array('en' => 'Cloth Number', 'ar' => 'رقم القماش'),
 );

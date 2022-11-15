@@ -4,11 +4,13 @@ if (isset($_POST['type1'])) {
     $_SESSION['cloths1']['type1'] = $_POST['type1'];
     $_SESSION['cloths1']['type2'] = $_POST['type2'];
     $_SESSION['cloths1']['size'] = $_POST['size'];
-    $_SESSION['cloths1']['thread_value'] = $_POST['thread_value'];
     $_SESSION['cloths1']['zipper'] = $_POST['zipper'];
     $_SESSION['cloths1']['chain'] = $_POST['chain'];
     $_SESSION['cloths1']['buttons'] = $_POST['buttons'];
     $_SESSION['cloths1']['filling'] = $_POST['filling'];
+    $_SESSION['cloths1']['number'] = $_POST['number'];
+    $_SESSION['cloths1']['weight'] = $_POST['weight'];
+    $_SESSION['cloths1']['button_color'] = $_POST['button_color'];
 }
 ?>
 
@@ -56,6 +58,10 @@ if (isset($_POST['type1'])) {
                                     <?= $_localize[$_SESSION['cloths1']['type1']][$_SESSION['lang']] ?>
                                     &nbsp; || &nbsp;
                                     <?= $_localize[$_SESSION['cloths1']['type2']][$_SESSION['lang']] ?>
+                                    &nbsp;  &nbsp; || &nbsp; &nbsp;
+                                    <?= $_localize['cloth_weight'][$_SESSION['lang']] ?> : <?php echo $_SESSION['cloths1']['weight'] ?>
+                                    &nbsp; || &nbsp;
+                                    <?= $_localize['cloth_number'][$_SESSION['lang']] ?>  : <?php echo $_SESSION['cloths1']['number'] ?>
                                 </div>
                             </td>
                         </tr>
@@ -77,18 +83,6 @@ if (isset($_POST['type1'])) {
                             </td>
                             <td class="qty">
                                 <?php echo $_SESSION['cloths1']['size'] ?>
-                            </td>
-                        </tr>
-                         <tr>
-                            <td class="prod-column">
-                                <div class="column-box">
-                                    <h5 class="prod-title"> <?= $_localize['thread_type'][$_SESSION['lang']] ?> </h5>
-                                </div>
-                            </td>
-                            <td class="qty">
-                                <div class="select-div">
-                                    <?= $_localize['Cotton_100'][$_SESSION['lang']] ?>
-                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -122,6 +116,16 @@ if (isset($_POST['type1'])) {
                             </td>
                         </tr>
                         <tr>
+                        <td class="prod-column">
+                                <div class="column-box">
+                                    <h5 class="prod-title"><?= $_localize['buttons_color'][$_SESSION['lang']] ?></h5>
+                                </div>
+                            </td>
+                            <td class="qty">
+                                <?php echo $_SESSION['cloths1']['button_color'] ?>
+                            </td>
+                        </tr>
+                        <tr>
                             <td class="prod-column">
                                 <div class="column-box">
                                     <h5 class="prod-title"><?= $_localize['filing'][$_SESSION['lang']] ?></h5>
@@ -148,6 +152,9 @@ if (isset($_POST['type1'])) {
                                             &nbsp;
                                             <span style=" display: inline-block;width: 20px ; height: 20px; border: 1px solid ; background-color:<?php echo isset($_SESSION['cloths'][$row . '_color']) ? '#' . substr($_SESSION['cloths'][$row . '_color'], 0, 6) : 'fff' ?> ;">
 
+                                            </span>
+                                            <span dir="ltr">
+                                                <?php echo '#' . substr($_SESSION['cloths'][$row . '_color'], 0, 6) ?>
                                             </span>
                                         </td>
                                     </tr>
@@ -207,8 +214,8 @@ if (isset($_POST['type1'])) {
             }
             echo '
         var qrcode = new QRCode(document.getElementById("qrcode"), {
-                width : 200,
-                height : 200,
+                width : 170,
+                height : 170,
                 correctLevel : QRCode.CorrectLevel.H
         });    
         qrcode.makeCode("https://cloths.digital/cpreview/index.php?query=' . $query . '");';
@@ -222,10 +229,10 @@ if (isset($_POST['type1'])) {
             // Choose the element id which you want to export.
             var element = document.getElementById('content_pdf');
             element.style.width = '700px';
-            element.style.height = '1000px';
+            element.style.height = '1020px';
             var opt = {
                 margin: 0,
-                filename: 'myfile.pdf',
+                filename: 'final-report.pdf',
                 image: {
                     type: 'jpeg',
                     quality: 1

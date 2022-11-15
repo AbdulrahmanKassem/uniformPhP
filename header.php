@@ -34,11 +34,11 @@ require('localize.php');
         <link href="css/revolution-slider.<?PHP echo $_SESSION['dir'] ?>.css" rel="stylesheet">
         <link href="css/style.<?PHP echo $_SESSION['dir'] ?>.css" rel="stylesheet">
     <?php
-    }else{
+    } else {
     ?>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/revolution-slider.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/revolution-slider.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     <?php
     }
     ?>
@@ -121,6 +121,9 @@ require('localize.php');
                                 <a href="https://wa.me/966545445335">
                                     <span class="fa fa-whatsapp"></span>
                                 </a>
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
 
                             </li>
                         </ul>
@@ -176,6 +179,15 @@ require('localize.php');
             <div class="header-upper">
                 <div class="auto-container">
                     <div class="clearfix">
+                        <?php
+                        if (basename($_SERVER['PHP_SELF']) != 'index.php') {
+                        ?>
+                            <div class="pull-left logo-outer">
+                                <div class="logo"><a href="index.php"><img src="images/logo.jpeg" alt="" title="Bolton" style="width:70px"></a></div>
+                            </div>
+                        <?php
+                        }
+                        ?>
                         <div class="nav-outer pull-right clearfix">
                             <!-- Main Menu End-->
                             <?PHP
@@ -191,7 +203,7 @@ require('localize.php');
                             ?>
 
                             <!-- Main Menu -->
-                            <nav class="main-menu">
+                            <nav class="main-menu" dir="ltr">
                                 <div class="navbar-header">
                                     <!-- Toggle Button -->
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -203,16 +215,7 @@ require('localize.php');
 
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li><a href="templates.php"><?= $_localize['templates'][$_SESSION['lang']] ?></a></li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['sizetable'][$_SESSION['lang']] ?> <span class="caret"></span></a>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="body_measurements.php"><?= $_localize['body_measurements'][$_SESSION['lang']] ?></a></li>
-                                                <li><a href="sizetable.php"><?= $_localize['sizetable_table'][$_SESSION['lang']] ?></a></li>
-                                                <li><a href="explainer_video.php"><?= $_localize['explainer_video'][$_SESSION['lang']] ?></a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="guide.php"><?= $_localize['guid'][$_SESSION['lang']] ?></a></li>
+                                        <li><a href="about-us.php"><?= $_localize['about_us'][$_SESSION['lang']] ?></a></li>
                                         <li class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['order'][$_SESSION['lang']] ?><span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
@@ -220,7 +223,21 @@ require('localize.php');
                                                 <li class="disabled"><a href="javascript:;"><?= $_localize['order_history'][$_SESSION['lang']] ?></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about-us.php"><?= $_localize['about_us'][$_SESSION['lang']] ?></a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['design_production'][$_SESSION['lang']] ?> <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="guide.php"><?= $_localize['guid'][$_SESSION['lang']] ?></a></li>
+                                                <li><a href="templates.php"><?= $_localize['templates'][$_SESSION['lang']] ?></a></li>
+                                                <li class="dropdown">
+                                                    <a href="#"> <?= $_localize['sizetable'][$_SESSION['lang']] ?> <span class="caret"></span></a>
+                                                    <ul>
+                                                        <li><a href="body_measurements.php"><?= $_localize['body_measurements'][$_SESSION['lang']] ?></a></li>
+                                                        <li><a href="sizetable.php"><?= $_localize['sizetable_table'][$_SESSION['lang']] ?></a></li>
+                                                        <li><a href="explainer_video.php"><?= $_localize['explainer_video'][$_SESSION['lang']] ?></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
                                         <li><a href="index.php"><?= $_localize['home'][$_SESSION['lang']] ?></a></li>
                                     </ul>
                                 </div>
@@ -257,26 +274,32 @@ require('localize.php');
 
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li><a href="templates.php"><?= $_localize['templates'][$_SESSION['lang']] ?></a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['sizetable'][$_SESSION['lang']] ?> <span class="caret"></span></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="body_measurements.php"><?= $_localize['body_measurements'][$_SESSION['lang']] ?></a></li>
-                                            <li><a href="sizetable.php"><?= $_localize['sizetable_table'][$_SESSION['lang']] ?></a></li>
-                                            <li><a href="explainer_video.php"><?= $_localize['explainer_video'][$_SESSION['lang']] ?></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="guide.php"><?= $_localize['guid'][$_SESSION['lang']] ?></a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['order'][$_SESSION['lang']] ?><span class="caret"></span></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="app.php"><?= $_localize['new_order'][$_SESSION['lang']] ?></a></li>
-                                            <li class="disabled"><a href="javascript:;"><?= $_localize['order_history'][$_SESSION['lang']] ?></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about-us.php"><?= $_localize['about_us'][$_SESSION['lang']] ?></a></li>
-                                    <li><a href="index.php"><?= $_localize['home'][$_SESSION['lang']] ?></a></li>
-                                </ul>
+
+                                <li><a href="about-us.php"><?= $_localize['about_us'][$_SESSION['lang']] ?></a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['order'][$_SESSION['lang']] ?><span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="app.php"><?= $_localize['new_order'][$_SESSION['lang']] ?></a></li>
+                                                <li class="disabled"><a href="javascript:;"><?= $_localize['order_history'][$_SESSION['lang']] ?></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['design_production'][$_SESSION['lang']] ?> <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="guide.php"><?= $_localize['guid'][$_SESSION['lang']] ?></a></li>
+                                                <li><a href="templates.php"><?= $_localize['templates'][$_SESSION['lang']] ?></a></li>
+                                                <li class="dropdown">
+                                                    <a href="#"> <?= $_localize['sizetable'][$_SESSION['lang']] ?> <span class="caret"></span></a>
+                                                    <ul>
+                                                        <li><a href="body_measurements.php"><?= $_localize['body_measurements'][$_SESSION['lang']] ?></a></li>
+                                                        <li><a href="sizetable.php"><?= $_localize['sizetable_table'][$_SESSION['lang']] ?></a></li>
+                                                        <li><a href="explainer_video.php"><?= $_localize['explainer_video'][$_SESSION['lang']] ?></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="index.php"><?= $_localize['home'][$_SESSION['lang']] ?></a></li>
+                                    </ul>
                             </div>
                         </nav>
                     </div>

@@ -8,6 +8,7 @@ if (isset($_POST['Collars'])) {
 <section class="page-title" style="background-image: url(images/background/bg_checkout.jpg);">
     <div class="auto-container">
         <h1><?= $_localize['final_report'][$_SESSION['lang']] ?></h1>
+        
     </div>
 </section>
 <!--End Page Title-->
@@ -19,11 +20,11 @@ if (isset($_POST['Collars'])) {
         <div class="default-title">
             <h2><?= $_localize['final_report'][$_SESSION['lang']] ?></h2>
         </div>
- <form action="complete_order.php" method="POST">
-        <!--Cart Outer-->
-        <div class="cart-outer">
-            <div class="table-outer" style="background-color:unset !important;">
-               
+        <form action="complete_order.php" method="POST">
+            <!--Cart Outer-->
+            <div class="cart-outer">
+                <div class="table-outer" style="background-color:unset !important;">
+
                     <table class="table table-bordered table-striped table-hover checkout-table">
 
                         <tbody>
@@ -49,12 +50,28 @@ if (isset($_POST['Collars'])) {
                                 </td>
                             </tr>
                             <tr>
+                                <td>
+                                    <h4 class="prod-title"><?= $_localize['cloth_weight'][$_SESSION['lang']] ?></h4>
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" name="weight" placeholder="<?= $_localize['cloth_weight'][$_SESSION['lang']] ?>">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4 class="prod-title"><?= $_localize['cloth_number'][$_SESSION['lang']] ?></h4>
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" name="number" placeholder="<?= $_localize['cloth_number'][$_SESSION['lang']] ?>">
+                                </td>
+                            </tr>
+                            <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
                                         <h4 class="prod-title"><?= $_localize['size'][$_SESSION['lang']] ?></h4>
                                         <span>
                                             <i class="fa fa-info-circle"></i>
-                                            <a href="sizetable.php" class="text-info bg-info">
+                                            <a href="sizetable.php" target="_blank" class="text-info bg-info">
                                                 ( <?= $_localize['details'][$_SESSION['lang']] ?>)
                                             </a>
                                         </span>
@@ -73,42 +90,32 @@ if (isset($_POST['Collars'])) {
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
-                                        <h4 class="prod-title"> <?= $_localize['thread_type'][$_SESSION['lang']] ?> </h4>
-                                    </div>
-                                </td>
-                                <td class="qty">
-                                    <div class="select-div">
-                                        <select class="form-control" name="thread_type">
-                                            <option value="thread_type"><?= $_localize['Cotton_100'][$_SESSION['lang']] ?></option>
-                                        </select>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="prod-column">
-                                    <div class="column-box">
                                         <h4 class="prod-title"><?= $_localize['buttons'][$_SESSION['lang']] ?></h4>
                                     </div>
                                 </td>
                                 <td class="qty text-center">
-                                    <label>
-                                        <input type="radio" name="buttons" value="1" checked>
-                                        <img src="images/parts/button1.jpg" style="width: 50px;" />
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="buttons" value="2">
-                                        <img src="images/parts/button2.jpg" style="width: 50px;margin:0px 10px" />
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="buttons" value="3">
-                                        <img src="images/parts/button3.jpg" style="width: 50px;" />
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="buttons" value="4">
-                                        <img src="images/parts/button4.jpg" style="width: 50px;" />
-                                    </label>
+                                            <label>
+                                                <input type="radio" name="buttons" value="1" checked>
+                                                <img src="images/parts/button1.jpg" style="width: 50px;" />
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="buttons" value="2">
+                                                <img src="images/parts/button2.jpg" style="width: 50px;margin:0px 10px" />
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="buttons" value="3">
+                                                <img src="images/parts/button3.jpg" style="width: 50px;" />
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="buttons" value="4">
+                                                <img src="images/parts/button4.jpg" style="width: 50px;" />
+                                            </label>
+                                       
+
+                                    </div>
                                 </td>
                             </tr>
+                            
                             <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
@@ -143,6 +150,18 @@ if (isset($_POST['Collars'])) {
                                 </td>
                             </tr>
                             <tr>
+                                <td>
+                                <div class="column-box">
+                                        <h4 class="prod-title"><?= $_localize['buttons_color'][$_SESSION['lang']] ?></h4>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                <input type="text" class="form-control" name="button_color" placeholder="<?= $_localize['buttons_color'][$_SESSION['lang']] ?>">
+                                      
+                                </td>
+                            </tr>
+                            <tr>
                                 <td class="prod-column">
                                     <div class="column-box">
                                         <h4 class="prod-title"><?= $_localize['filing'][$_SESSION['lang']] ?></h4>
@@ -153,7 +172,8 @@ if (isset($_POST['Collars'])) {
                                         <option value="light_filing"><?= $_localize['light_filing'][$_SESSION['lang']] ?></option>
                                         <option value="heavy_filing"><?= $_localize['heavy_filing'][$_SESSION['lang']] ?></option>
                                         <option value="without"><?= $_localize['without'][$_SESSION['lang']] ?></option>
-                                    </select></td>
+                                    </select>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="prod-column">
@@ -193,6 +213,7 @@ if (isset($_POST['Collars'])) {
                                                 <span style=" display: inline-block;width: 20px ; height: 20px; border: 1px solid ; background-color:<?php echo isset($_SESSION['cloths'][$row . '_color']) ? '#' . substr($_SESSION['cloths'][$row . '_color'], 0, 6) : 'fff' ?> ;">
 
                                                 </span>
+                                                <span dir="ltr"><?php echo '#' . substr($_SESSION['cloths'][$row . '_color'], 0, 6); ?></span>
                                             </td>
                                         </tr>
                                 <?php }
@@ -200,7 +221,7 @@ if (isset($_POST['Collars'])) {
                                 <tr>
                                     <td colspan="2">
                                         <h4 class="prod-title">
-                                            <a href="guide-pdf/guide-<?= $_SESSION['lang'] ?>.pdf" class="btn btn-primary">
+                                            <a href="guide-pdf/guide-<?= $_SESSION['lang'] ?>.pdf" target="_blank" class="btn btn-primary">
                                                 <i class="fa fa-file-pdf-o"></i>
                                                 <?= $_localize['guid'][$_SESSION['lang']] ?>
                                             </a>
@@ -218,17 +239,17 @@ if (isset($_POST['Collars'])) {
                             } ?>
                         </tbody>
                     </table>
-                
+
+                </div>
+
+
             </div>
 
-
-        </div>
-
-        <div class="end-order clearfix">
-            <a href="#" id="show_barcode" target="_blank" class="theme-btn btn-style-one"><?= $_localize['show_barcode'][$_SESSION['lang']] ?></a>
-            <button type="submit" class="theme-btn btn-style-one"> إتمام الطلب </button>
-        </div>
-</form>
+            <div class="end-order clearfix">
+                <a href="#" id="show_barcode" target="_blank" class="theme-btn btn-style-one"><?= $_localize['show_barcode'][$_SESSION['lang']] ?></a>
+                <button type="submit" class="theme-btn btn-style-one"> إتمام الطلب </button>
+            </div>
+        </form>
     </div>
 </div>
 </div>
