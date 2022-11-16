@@ -81,7 +81,7 @@ $_localize = array(
 'final_msg' => array('en' => 'We will contact you within 24 hours', 'ar' => 'سيتم التواصل معكم في خلال 24 ساعة'),
 'design_production' => array('en' => 'Design production steps', 'ar' => 'مراحل انتاج التصميم'),
 'cloth_weight' => array('en' => 'Cloth weight', 'ar' => 'وزن القماش'),
-'buttons_color' => array('en' => 'Button and Zipper Color ', 'ar' => 'لون الازرار و سحاب (سوستة)'),
+'buttons_color' => array('en' => 'Button and Zipper Color (Hex color)', 'ar' => 'لون الازرار و سحاب (Hex color)'),
 'zipper_color' => array('en' => 'Zipper Color', 'ar' => 'لون سحاب (سوستة)'),
 'cloth_number' => array('en' => 'Cloth Number', 'ar' => 'رقم القماش'),
 );

@@ -121,7 +121,7 @@ require('localize.php');
                                 <a href="https://wa.me/966545445335">
                                     <span class="fa fa-whatsapp"></span>
                                 </a>
-                                <a href="#">
+                                <a href="https://www.facebook.com/profile.php?id=100086707123971">
                                     <span class="fa fa-facebook"></span>
                                 </a>
 
@@ -215,7 +215,6 @@ require('localize.php');
 
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li><a href="about-us.php"><?= $_localize['about_us'][$_SESSION['lang']] ?></a></li>
                                         <li class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['order'][$_SESSION['lang']] ?><span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
@@ -238,6 +237,7 @@ require('localize.php');
                                                 </li>
                                             </ul>
                                         </li>
+                                        <li><a href="about-us.php"><?= $_localize['about_us'][$_SESSION['lang']] ?></a></li>
                                         <li><a href="index.php"><?= $_localize['home'][$_SESSION['lang']] ?></a></li>
                                     </ul>
                                 </div>
