@@ -247,7 +247,7 @@ if (isset($_POST['Collars'])) {
 
             <div class="end-order clearfix">
                 <a href="#" id="show_barcode" target="_blank" class="theme-btn btn-style-one"><?= $_localize['show_barcode'][$_SESSION['lang']] ?></a>
-                <button type="submit" class="theme-btn btn-style-one"> إتمام الطلب </button>
+                <button type="submit" class="theme-btn btn-style-one"> <?= $_localize['Complete_the_order'][$_SESSION['lang']] ?></button>
             </div>
         </form>
     </div>
