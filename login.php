@@ -30,7 +30,7 @@
     }
 ?>
 	<!--Page Title-->
-    <section class="page-title" style="background-image: url(images/background/4.jpeg);">
+    <section class="page-title" style="background-image: url(images/background/bg_about_us.jpeg);">
     	<div class="auto-container">
         	<h1><?=$_localize['login'][$_SESSION['lang']]?></h1>
         	<ul class="bread-crumb">
