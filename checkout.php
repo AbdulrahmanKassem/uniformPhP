@@ -54,7 +54,17 @@ if (isset($_POST['Collars'])) {
                                     <h4 class="prod-title"><?= $_localize['cloth_weight'][$_SESSION['lang']] ?></h4>
                                 </td>
                                 <td>
+                                <?php
+                                if ($_SESSION['lang'] == 'ar') {
+                                    ?>
                                     <input type="text" class="form-control" name="weight" value="210 جم للمتر المربع" disabled>
+                                    <?php 
+                                    } else {
+                                        ?>
+                                        <input type="text" class="form-control" name="weight" value="210 gm per square meter" disabled>
+                                        <?php
+                                        }
+                                        ?>
                                 </td>
                             </tr>
                             <tr>

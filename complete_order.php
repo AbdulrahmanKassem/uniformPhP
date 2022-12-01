@@ -59,9 +59,9 @@ if (isset($_POST['type1'])) {
                                     &nbsp; || &nbsp;
                                     <?= $_localize[$_SESSION['cloths1']['type2']][$_SESSION['lang']] ?>
                                     &nbsp;  &nbsp; || &nbsp; &nbsp;
-                                    <?= $_localize['cloth_weight'][$_SESSION['lang']] ?> : <?php echo $_SESSION['cloths1']['weight'] ?>
+                                    <?= $_localize['cloth_weight'][$_SESSION['lang']] ?> : <?= $_localize['gm_per_square_meter'][$_SESSION['lang']]?>
                                     &nbsp; || &nbsp;
-                                    <?= $_localize['cloth_number'][$_SESSION['lang']] ?>  : <?php echo $_SESSION['cloths1']['number'] ?>
+                                    <?= $_localize['cloth_number'][$_SESSION['lang']] ?>  : <?php echo "AF17245" ?>
                                 </div>
                             </td>
                         </tr>

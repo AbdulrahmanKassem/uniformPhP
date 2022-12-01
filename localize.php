@@ -41,7 +41,7 @@ $_localize = array(
     'guid_heading' => array('en' => 'Table stages for production of overall', 'ar' => 'جدول مراحل انتاج الأفرول'),
     'name' => array('en' => 'Name', 'ar' => 'اسم'),
     'company' => array('en' => 'Company', 'ar' => 'شركة'),
-    'register' => array('en' => 'Register', 'ar' => 'يسجل'),
+    'register' => array('en' => 'Register', 'ar' => 'الدخول'),
     'phone' => array('en' => 'Phone', 'ar' => 'هاتف'),
     'address' => array('en' => 'Address', 'ar' => 'عنوان'),
     'password' => array('en' => 'Password', 'ar' => 'كلمة المرور '),
@@ -84,4 +84,5 @@ $_localize = array(
 'buttons_color' => array('en' => 'Button and Zipper Color (Hex color)', 'ar' => 'لون الازرار و سحاب (Hex color)'),
 'zipper_color' => array('en' => 'Zipper Color', 'ar' => 'لون سحاب (سوستة)'),
 'cloth_number' => array('en' => 'Cloth Number', 'ar' => 'رقم القماش'),
+'gm_per_square_meter' => array('en' => '210 gm per square meter', 'ar' => '٢١٠ جم للمتر المربع')
 );
