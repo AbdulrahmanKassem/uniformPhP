@@ -84,5 +84,6 @@ $_localize = array(
 'buttons_color' => array('en' => 'Button and Zipper Color (Hex color)', 'ar' => 'لون الازرار و سحاب (Hex color)'),
 'zipper_color' => array('en' => 'Zipper Color', 'ar' => 'لون سحاب (سوستة)'),
 'cloth_number' => array('en' => 'Cloth Number', 'ar' => 'رقم القماش'),
+'user_directory' => array('en' => 'User Directory', 'ar' => 'دليل المستخدم'),
 'gm_per_square_meter' => array('en' => '210 gm per square meter', 'ar' => '٢١٠ جم للمتر المربع')
 );

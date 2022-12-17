@@ -5,6 +5,7 @@ if (!isset($_SESSION['lang'])) {
     $_SESSION['lang'] = 'ar';
     $_SESSION['dir'] = 'rtl';
 }
+
 //include('lang/langCotroller.php');
 /*if(!isset($_SESSION['lang']))
 {
@@ -53,6 +54,12 @@ require('localize.php');
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
     <style>
+        li.bigger_font_title {
+            font-size: 80px;
+        }
+        li.bigger_font_sub_title {
+            font-size: 70px;
+        }
         #qrcode img {
             margin: auto;
         }
@@ -218,10 +225,14 @@ require('localize.php');
                                         <li class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['order'][$_SESSION['lang']] ?><span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
-                                                <li><a href="app.php"><?= $_localize['new_order'][$_SESSION['lang']] ?></a></li>
+                                                <li><a href="app.php?lang=<?PHP echo $_SESSION['lang'] ?>"><?= $_localize['new_order'][$_SESSION['lang']] ?></a></li>
                                                 <li class="disabled"><a href="javascript:;"><?= $_localize['order_history'][$_SESSION['lang']] ?></a></li>
                                             </ul>
                                         </li>
+
+                                        <li><a href="guide-pdf/user_directory.pdf" target="_blank">
+                                        <?= $_localize['user_directory'][$_SESSION['lang']] ?></a></li>
+
                                         <li class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <?= $_localize['design_production'][$_SESSION['lang']] ?> <span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">

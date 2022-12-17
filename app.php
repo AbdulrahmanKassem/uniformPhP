@@ -70,7 +70,7 @@ include_once 'header.php'; ?>
 </section>
 
 
-<script>
+ <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
           navigator.serviceWorker.register("ServiceWorker.js");
@@ -108,11 +108,11 @@ include_once 'header.php'; ?>
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/b34.loader.js";
+      var loaderUrl = buildUrl + "/Outbut19.loader.js";
       var config = {
-        dataUrl: buildUrl + "/b34.data",
-        frameworkUrl: buildUrl + "/b34.framework.js",
-        codeUrl: buildUrl + "/b34.wasm",
+        dataUrl: buildUrl + "/Outbut19.data",
+        frameworkUrl: buildUrl + "/Outbut19.framework.js",
+        codeUrl: buildUrl + "/Outbut19.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "clothing",
@@ -135,7 +135,7 @@ include_once 'header.php'; ?>
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      loadingBar.style.display = "block";
+     loadingBar.style.display = "block";
 
       var script = document.createElement("script");
       var unityIns = null;
@@ -157,4 +157,4 @@ include_once 'header.php'; ?>
         unityIns.SendMessage('main_character', 'jsCall');
     }
     </script>
-<?php include_once 'footer.php'; clearstatcache(); ?>
+<?php include_once 'footer.php'; ?>
